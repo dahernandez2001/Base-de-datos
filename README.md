@@ -31,8 +31,8 @@ La función hace una busqueda en la base de datos donde buscara la marca especii
 # Uso de la Función
 Con esta función se ve cuantos carros hay de la marca digitada 
 
-    SELECT calcular_costo_estacionamiento('2024-09-03 08:00:00', '2024-09-03 10:30:00', 2.50) AS costo;
-Esto calculará el costo para un vehículo que estuvo estacionado desde las 08:00 hasta las 10:30, con una tarifa de $2.50 por hora.
+   SELECT COUNT(*) INTO total_carros
+Esto calculará cuantos carros hay segun la marca que se ingreso, en este caso si se ingresa "Toyota" mostrara que solo hay "1" carro con esa marca
 
 # Tabla relacionada
 
